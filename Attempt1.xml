@@ -1,19 +1,12 @@
 <xml xmlns="http://www.w3.org/1999/xhtml">
-  <block type="controls_repeat" id="76" inline="true" x="-135" y="-19">
-    <value name="TIMES">
-      <block type="math_number" id="100">
-        <field name="NUM">10</field>
+  <block type="movement_leftmotor" id="131" inline="true" x="-76" y="27">
+    <value name="MOVLEFT">
+      <block type="math_number" id="138">
+        <field name="NUM">20</field>
       </block>
     </value>
-    <statement name="DO">
-      <block type="movement_forward" id="35">
-        <next>
-          <block type="movement_left" id="121"></block>
-        </next>
-      </block>
-    </statement>
     <next>
-      <block type="movement_stop" id="110"></block>
+      <block type="movement_stop" id="148"></block>
     </next>
   </block>
 </xml>
