@@ -1,15 +1,3 @@
 <xml xmlns="http://www.w3.org/1999/xhtml">
-  <block type="controls_repeat" id="1" inline="true" x="-4" y="40">
-    <value name="TIMES">
-      <block type="math_number" id="2">
-        <field name="NUM">3</field>
-      </block>
-    </value>
-    <statement name="DO">
-      <block type="movement_forward" id="3"></block>
-    </statement>
-    <next>
-      <block type="movement_stop" id="4"></block>
-    </next>
-  </block>
+  <block type="movement_forward" id="14" x="-108" y="-6"></block>
 </xml>
