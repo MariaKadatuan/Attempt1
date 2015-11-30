@@ -2,11 +2,11 @@
   <block type="controls_repeat" id="81" inline="true" x="-148" y="-39">
     <value name="TIMES">
       <block type="math_number" id="88">
-        <field name="NUM">10</field>
+        <field name="NUM">2</field>
       </block>
     </value>
     <statement name="DO">
-      <block type="movement_forward" id="14"></block>
+      <block type="movement_stutter" id="98"></block>
     </statement>
     <next>
       <block type="oled_drawtext" id="56">
