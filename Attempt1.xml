@@ -1,5 +1,28 @@
 <xml xmlns="http://www.w3.org/1999/xhtml">
-  <block type="oled_drawtext" id="56" x="-77" y="227">
-    <field name="TEXT">EXO IS BAE</field>
+  <block type="movement_forward" id="11" x="-43" y="22">
+    <next>
+      <block type="robot_delay" id="13" inline="true">
+        <value name="DELAY">
+          <block type="math_number" id="26">
+            <field name="NUM">1000</field>
+          </block>
+        </value>
+        <next>
+          <block type="led_select" id="35" inline="true">
+            <field name="ACTION">ON</field>
+            <value name="LED">
+              <block type="math_number" id="42">
+                <field name="NUM">5</field>
+              </block>
+            </value>
+            <next>
+              <block type="oled_drawtext" id="51">
+                <field name="TEXT">EXO IS BAE</field>
+              </block>
+            </next>
+          </block>
+        </next>
+      </block>
+    </next>
   </block>
 </xml>
