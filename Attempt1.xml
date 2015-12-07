@@ -16,8 +16,25 @@
               </block>
             </value>
             <next>
-              <block type="oled_drawtext" id="51">
-                <field name="TEXT">EXO IS BAE</field>
+              <block type="oled_setcursor" id="69" inline="true">
+                <value name="STARTX">
+                  <block type="math_number" id="85">
+                    <field name="NUM">10</field>
+                  </block>
+                </value>
+                <value name="STARTY">
+                  <block type="math_number" id="92">
+                    <field name="NUM">10</field>
+                  </block>
+                </value>
+                <next>
+                  <block type="oled_drawtext" id="51">
+                    <field name="TEXT">EXO IS BAE</field>
+                    <next>
+                      <block type="movement_stop" id="102"></block>
+                    </next>
+                  </block>
+                </next>
               </block>
             </next>
           </block>
