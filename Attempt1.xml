@@ -31,7 +31,7 @@
                     </value>
                     <next>
                       <block type="oled_drawtext" id="111">
-                        <field name="TEXT">PAPYRUS IS PRECIOUS</field>
+                        <field name="TEXT">PAPYRUS IS</field>
                         <next>
                           <block type="oled_setcursor" id="129" inline="true">
                             <value name="STARTX">
@@ -46,7 +46,7 @@
                             </value>
                             <next>
                               <block type="oled_drawtext" id="152">
-                                <field name="TEXT">CINNABUN</field>
+                                <field name="TEXT">PRECIOUS CINNABUN</field>
                                 <next>
                                   <block type="movement_stop" id="102"></block>
                                 </next>
